@@ -1,0 +1,34 @@
+/* Estilos para el modo oscuro */
+
+/* Fondo oscuro y texto claro para el cuerpo */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Fondo oscuro para el contenedor principal */
+.container {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+/* Estilos específicos para el carrusel en modo oscuro */
+.carousel-item img {
+    filter: brightness(0.7); /* Ajusta el brillo de las imágenes si es necesario */
+}
+
+/* Fondo oscuro para el carrusel */
+.carousel {
+    background-color: #333;
+}
+
+/* Controladores del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #e0e0e0; /* Color para los íconos de los controles */
+}
+
+/* Texto dentro de los elementos del carrusel */
+.carousel-caption {
+    color: #e0e0e0;
+}
